@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-	"build-prod": "ng build --aot --prod --base-href /ssportal/"
+	"build-prod": "ng build --aot --prod --output-hashing none"
   },
   "private": true,
   "dependencies": {
